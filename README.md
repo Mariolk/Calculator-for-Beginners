@@ -1,5 +1,5 @@
 
-#HOW TO USE IT
+**#HOW TO USE IT**
 
 def press(num): # Function to show the number on the screen
     global expression
