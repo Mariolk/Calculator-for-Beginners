@@ -1,4 +1,8 @@
+
+![icon](https://github.com/user-attachments/assets/0f859fde-9572-4683-9f71-4b6878e62658)
+
 HOW TO USE IT
+
 ---------------------------
 
 Copy and past or download de file and open in Visual Studio Core.
