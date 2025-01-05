@@ -1,26 +1,5 @@
-import tkinter as tk # Import library to be able to see it visually
-from tkinter import messagebox # Import messagebox module to display error message
 
-root = tk.Tk() # Create the window
-root.title("Calculator") # Window title
-root.geometry('400x500') # Window size
-root.resizable(0, 0) # Don't change the window size
-root.configure(bg='#f4f6f6') # Background color
-
-color_texto =  '#000000' # Text Color
-color_boton = '#e0e0e0' # Button color
-color_boton_igual = '#76d7c4'   # Equal button color
-color_boton_clear = '#85c1e9'   # Clear button color
-
-
-screen_text = tk.StringVar() # Variable to show the text on the screen
-root.configure(bg='#f4f6f6')  # Change the background color
-screen_label = tk.Label ( root, textvariable=screen_text, font=('Arial', 30), bg='#ffffff', fg=color_texto, anchor='e', padx=10 ) # Create the screen
-screen_label.grid(row=0, column=0, columnspan=4, sticky='we', padx=10, pady=10) # Screen position  
-
-expression = '' # Variable to save the mathematical expression and empty screen
-
-#FUNCTIONS
+#HOW TO USE IT
 
 def press(num): # Function to show the number on the screen
     global expression
